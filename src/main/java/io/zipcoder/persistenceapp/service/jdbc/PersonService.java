@@ -1,4 +1,4 @@
-package io.zipcoder.persistenceapp.service;
+package io.zipcoder.persistenceapp.service.jdbc;
 
 import io.zipcoder.persistenceapp.entity.Person;
 import io.zipcoder.persistenceapp.service.jdbc.extractors.FirstNameExtractor;
@@ -33,7 +33,6 @@ public class PersonService {
 
 
     public int addPerson(Person person){
-        Integer id = person.getId();
         String lastN = person.getLast_name();
         String firstN = person.getFirst_name();
         String mobile = person.getMobile();

@@ -1,7 +1,7 @@
 package io.zipcoder.persistenceapp.controller;
 
 import io.zipcoder.persistenceapp.entity.Person;
-import io.zipcoder.persistenceapp.service.PersonService;
+import io.zipcoder.persistenceapp.service.jdbc.PersonService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpHeaders;
 import org.springframework.http.HttpStatus;
